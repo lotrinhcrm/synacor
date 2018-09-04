@@ -1,0 +1,323 @@
+*{margin: 0; padding: 0;} 
+
+/*
+image: 
+1.logo: https://s22.q4cdn.com/476325137/files/design/synacor-logo-2016-rgb.svg
+3. image:
+https://s22.q4cdn.com/476325137/files/design/slider/slider1.jpg
+https://s22.q4cdn.com/476325137/files/design/slider/slider2.jpg
+https://s22.q4cdn.com/476325137/files/design/slider/blockchain_hero1-2000x750.jpg
+5. icon media: 
+https://godofwar.playstation.com/static/img/global/icon-facebook.png
+https://godofwar.playstation.com/static/img/global/icon-twitter.png
+https://godofwar.playstation.com/static/img/global/icon-youtube.png
+https://godofwar.playstation.com/static/img/global/icon-instagram.png
+
+6. img duoi:
+https://synacor.com/files/images/home-dwl/home_bucket_mediacom-828x392.png
+https://synacor.com/files/images/home-dwl/zimbra-x-front-828x394.jpg
+https://synacor.com/files/images/home-dwl/cheddar2-828x394.jpg
+*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    height: 125px;
+    padding: 2%;
+    position: relative;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+.navphai img {
+	filter: brightness(50%);
+	height: auto;
+	width: 33px;
+	margin-left: 16px;
+}
+
+.navtrai {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navtrai img {
+	width: 170px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.navlink {
+	color: black;
+	margin: 9px 12px 0px 36px;
+}
+
+.dropdown {
+	display: inline;
+	padding-top: 4px;
+}
+
+.btn {
+	border: none;
+	margin-left: 30px;
+}
+
+.dropdown.hai:hover .dropdown-menu.mot {
+	display: block;
+}
+
+.dropdown:hover .btn{
+	background-color: white;
+}
+
+.dropdown:hover .fa-angle-down{
+    transition: 0.3s;
+    transform: rotateZ(180deg);
+}
+.dropdown-menu {
+	position: absolute;
+	z-index: 3;
+	border-top: 4px solid #E92D28;
+	min-width: 7rem;
+}
+
+.dropdown-menu.mot {
+	top: 167%;
+    left: -32%;
+}
+
+.dropdown-menu.hai {
+	top: 167%;
+    left: 15%;
+}
+
+.fa-angle-down {
+	display: block;
+	padding-top: 10px;
+}
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 0;
+    margin-left: 20px;
+    margin-bottom: -15px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #E92D28;
+    border-radius: 0;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: -15px;
+    }
+
+.carousel-caption h1 {
+	padding-bottom: 20px;
+	font-weight: normal;
+	font-size: 70px;
+}
+
+.carousel-caption {
+	margin-bottom: 10%;
+}
+
+.carousel-caption a {
+	color: white;
+	font-weight: normal;
+	font-size: 30px;
+	padding: 10px 10px;
+	border: 2px solid white;
+	margin-bottom: 200px;
+	text-align: center;
+	max-width: 250px;
+	vertical-align: top;
+	align-items: center;
+}
+
+.abc {
+	width: 136px;
+	height: 5px;
+	margin: auto;
+	background-color: #E92D28;
+	margin-bottom: 20px;
+}
+
+.card-img-top {
+	width: 358px;
+	height: auto;
+}
+
+.card {
+	border: none;
+	width: 358px;
+	height: auto;
+}
+
+.giua1 {
+	text-align: center;
+	background-color: #F4F7F9;
+}
+
+.giua2 {
+	max-width: 894px;
+	margin: auto;
+	padding: 80px 0px 80px;
+}
+
+.giua2 p {
+	line-height: 32px;
+    text-align: left;
+    color: #6B6B6B;
+    font-size: 19px;
+}
+
+.giua3 {
+	height: 261px;
+	text-align: center;
+}
+
+.btn.btn-light {
+	padding: 26px 24%;
+	background-color: #F4F7F9;
+	margin-top: 100px;
+	font-size: 19px;
+}
+
+.fa-arrow-right {
+	margin-left: 10px;
+	font-weight: lighter;
+}
+
+.footer {
+	background-color: #F4F7F9;
+	margin-top: 50px;
+	padding: 34px 0px 10px;
+}
+
+.footer a {
+	color: #6B6B6B;
+	margin-right: 20px;
+	font-size: 15px;
+}
+
+.imgfooter {
+	filter: grayscale(100%);
+    height: auto;
+    width: 135px;
+    margin-right: 16px;
+}
+
+.navphai {
+	display: flex;
+}
+
+.navhidden {
+	display: none;
+	background-color: #E92D28;
+	height: 55px;
+	width: 100%;
+	justify-content: space-between;
+	padding: 2% 6%;
+}
+
+.navhidden img {
+	filter: brightness(0%) invert(1);
+	width: 30vw;
+}
+
+.menu1 {
+	border: 1px white solid;
+	color: white;
+	font-size: 12px;
+	padding: 1vh 2vw;
+	line-height: 12px;
+}
+
+#dropdown1 {
+	border: 1px white solid;
+	background-color: transparent;
+	border-radius: 0px;
+	font-size: 12px;
+	color: white;
+	padding: 0.5vh 3vw;
+}
+
+.dropdown-menu.hai {
+    position: absolute;
+    z-index: 99;
+    left: -76vw;
+    top: 4vh;
+    width: 99vw;
+}
+
+.motcard {
+	width: 358px;
+}
+
+.motcard img {
+	width: 358px;
+	height: auto;
+}
+
+.giuainside {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.giua {
+	max-width: 1130px;
+	margin: auto;
+}
+
+@media screen and (max-width: 1020px){
+	.nav {
+		display: none;
+	}
+	.d-block {
+		position: center;
+	}
+	.carousel .item {
+	  height: 195px;
+	}
+
+	.item img {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    min-height: 195px;
+	}
+	.btn.btn-light {
+		padding: 0px;
+	}
+	.navhidden {
+		display: flex;
+	}
+	.giuainside {
+		flex-direction: column;
+		flex-grow: 2;
+	}
+
+	.motcard {
+	width: 90%;
+	margin: auto;
+	}
+
+	.motcard img {
+	width: 100%;
+	height: auto;
+	}
+
+}
